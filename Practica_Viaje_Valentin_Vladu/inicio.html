@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Mi Sitio Web de Viajes</title>
+            <link rel="stylesheet" type="text/css" href="estilos.css">
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+
+        <!-- Encabezado de la página -->
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Logo de Mi Sitio Web de Viajes">
+            </div>
+            <h1>Bienvenido a Nuestro Sitio de Viajes</h1>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Inicio &#8962;</a></li>
+                    <li><a href="contacto.html">Contacta con Nosotros &#9990;</a></li>
+                    <li><a href="vacaciones.html">Vacaciones</a></li>
+                    <li><a href="reservas.html">Reservas</a></li>
+                    <li><a href="vuelos.html">Vuelos &#9992;</a></li>
+                    <li><a href="hoteles.html">Hoteles</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenedor principal -->
+        <div class="container">
+
+            <!-- Sección de Inicio -->
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <p>Bienvenido a nuestro sitio web de viajes. Explora las maravillosas opciones que tenemos para ti.</p>
+        
+            </section>
+            <h3>Catálogo de productos estrella que ofrecemos</h3>
+            <div class="product-catalog">
+                <!-- Aquí puedes agregar tus productos en forma de listado o cuadrícula -->
+                <div class="product">
+                    <!--La idea es crear un carussel de imagenes que mediente el simbolo < vaya hazia la izqierda mientras que con el simbolo > vaya cacia la derecha.-->
+
+                    <div class="container">
+                        <br>
+                        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+                          <!-- Indicadores -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#theCarousel" data-slide-to="1"></li>
+                            <li data-target="#theCarousel" data-slide-to="2"></li>
+                            <li data-target="#theCarousel" data-slide-to="3"></li>
+                            
+                          </ol>
+                      
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="imagen2.jpg" alt="Ilustracion" > 
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>Gusti Ilustración</h3>
+                                        <p>Exposición</p>
+                                    </div>
+                                </div>
+                          
+                                <div class="item">
+                                <img src="imagen3.jpg" alt="fotografia" width="600" height="424"> 
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3> Xataka Fotografía</h3>
+                                    <p>Concurso</p>
+                                </div>
+                                </div>
+                      
+                                <div class="item">
+                                        <img src="imagen4.jpg" alt="pintura" width="600" height="424">
+                                        <div class="carousel-caption d-none d-md-block">
+                                    <h3>DoArt Pintura</h3>
+                                    <p>Curso</p>
+                                </div>
+                                
+                                <div class="item">
+                                <img src="imagen5.jpg" alt="diseno" width="600" height="424"> 
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>UX UI Diseño Gráfico</h3>
+                                        <p>Curso</p>
+                                    </div>
+                                </div>
+                            
+                            
+                                    <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">anterior</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">siguiente</span>
+                                    </a>
+                                    </div>
+                            </div>
+                      
+                        </div>
+
+                    <!--<div class="carousel">
+                        <div class="slide1">
+                            <img src="producto1.jpg" alt="Imagen 1">
+                        </div>
+                        <div class="slide2">
+                            <img src="imagen2.jpg" alt="Imagen 2">
+                        </div>
+                        <div class="slide3">
+                            <img src="imagen3.jpg" alt="Imagen 3">
+                        </div>
+                        <div class="slide4">
+                            <img src="imagen4.jpg" alt="Imagen 4">
+                        </div>
+                        <div class="slide5">
+                            <img src="imagen5.jpg" alt="Imagen 5">
+                        </div>
+                    </div>
+
+                        <button class="prev-button">Anterior</button>
+                        <button class="next-button">Siguiente</button>-->
+
+                        <br>
+                        <p>Producto 1: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        <script src="script.js"></script>
+
+                        <img src="producto1.jpg" alt="Producto_1">
+                        <h4>Hoteles</h4>
+                        <p>Nosotros comparamos directamente de la fuente los precios que estan dispuestos a asegurar los alohamientos nocturnos ya que intentamos apostar por una estrategia de diferienciación que nos haga únicos en el mercado. Y en especial nos diferenciamos por bridar un servicio cinco estrellas para nuestros clientes ofreciendoles seguridad en todo momento como para los hoteleros que confian en nuestro sistema de pronto pago y la seguridad que anteriormente habiamos mencionado.</p>
+                    </div>
+                    <div class="product">
+                        <img src="producto2.jpg" alt="Producto 2">
+                        <h4>Vuelos</h4>
+                        <p>Nosotros somos una compania solida que suele cercionar y responsabilizarse con toda adquisición de billetes con las mejores aerolinias  </p>
+                    </div>
+            </div> 
+            </div>   
+        </div> <!-- Fin del contenedor principal -->
+
+        <!-- Pie de página -->
+        <footer>
+            <p>Derechos de autor: Vasile Valentin Vladu © 2023 Mi Sitio Web de Viajes creado con amor</p>
+            <div class="social">
+                <a href="https://www.facebook.com/valentin.vladu.18"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="https://www.youtube.com/@thesilverdragon20/videos"><img src="img/youtube.png" alt="youtube"></a>
+                <a href="https://www.linkedin.com/in/valentin-vladu-informatic/"><img src="img/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.instagram.com/valentin.vladu/"><img src="img/instagram.png" alt="instagram"></a>
+            </div>
+        </footer>
+
+        </body>
+    </html>
